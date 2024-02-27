@@ -2,9 +2,22 @@
 
 '''
 
-'''
-Ref:
-https://read.wqyunpan.com/qrcode/79712?fileId=391069
-https://video.izhixue.cn/0f8491b7fad14cf9980c55bf9bc2b2f9/0b6c6fceb24a442886f8f059da6f50ff-5287d2089db37e62345123a1be272f8b.mp4?auth_key=1708873406-c4c3b59606c34ecaaff98266c40d8e38-0-a50427ba41a07cb46ab55068cffabae5
-'''
+import requests
+from bs4 import BeautifulSoup
 
+def input_interface():
+    url = "https://read.wqyunpan.com/qrcode/79712?fileId=391069"
+    return url
+
+def qyunpan_crawler():
+    url = input_interface()
+    response = requests.get(url)
+    left_keyword = bytes("<head><",encoding='utf-8')
+    right_keyword = bytes(">",encoding='utf-8')
+    left = response.content.find(left_keyword) + len(left_keyword);print("left =",left);print('len(left_keyword) =',len(left_keyword))
+    right = response.content.find(right_keyword,left);print('right =',right)# 右关键字的首项索引不被切片，切片左闭右开正好合适
+    if left != -1 and right != -1:
+        target = response.content[left:right]
+        print(target)
+
+qyunpan_crawler()
