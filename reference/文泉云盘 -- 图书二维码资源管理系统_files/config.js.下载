@@ -1,0 +1,70 @@
+﻿/**
+ * Created with JetBrains WebStorm.
+ * User: @pippo
+ * Date: 2015
+ * Time: 下午6:06
+ */
+define(function () {
+    //定义要加载的模块
+    return window.config = {
+        //前端地址
+        host: 'https://www.wqyunpan.com/',
+        //后端地址
+        domain: 'https://www.wqyunpan.com/bookQr/',
+        //文件服务器后端地址
+        domainFile: 'https://www.wqyunpan.com/bookQr/',
+        //二维码路径
+        // online_host: 'lereading.ayxsoft.top',
+        online_host: 'www.wqyunpan.com',
+        //文件上传地址
+        uploadFileServer: 'https://www.wqyunpan.com/bookQr/file/upload/',
+        //文件预览路径
+        uploadFileUrl: 'https://www.wqyunpan.com/bookQr/file/view/',
+        //文件下载路径
+        downFileUrl: 'https://www.wqyunpan.com/bookQr/file/down/',
+        //资源预览路径
+        uploadFilePath: 'https://v1-c.wqketang.com/',
+        //文件下载URL
+        downLoadUrl: 'https://api.izhixue.cn/FileManagement/DownLoad',
+        //文件上传类型
+        uploadSuffix: 'txt,ppt,pptx,xls,xlsx,doc,docx,rtf,htm,html,xml,pdf,rar,zip,gif,jpg,jpeg,bmp,png,wma,mp3,mp4,' +
+            'flv,swf,wmv,avi,dat,asf,rm,rmvb,ram,mpg,mpeg,mov,m4v,mkv,flv,vob,qt,divx,cpk,fli,flc,mod,dvix,dv,ts,et,wps',
+        //微信-appid
+        weixin_appid: "wx91127260dd5e0e88",
+        //QQ-client_id
+        qq_client_id: "101435555",
+        //图片上传大小
+        imageFileSize: 10000 * 1024,
+        //word文件上传大小
+        uploadFileChunkSize: 5000 * 1024 * 1024,
+        //支持的视频格式
+        videoFormat: "MP4FLVWMVAVIDATASFRMRMVBRAMMPGMPRGMOVM4VMKVFLVOBQTDIVXCPKFLIFL" +
+            "CMODDVIXDVTSmp4flvwmvavidatasfrmrmvbrammpgmpegmovm4vmkvflvvobqtdivxcpkfliflcmoddvixdvts",
+        videoFormatBig: "MP4FLVWMVAVIDATASFRMRMVBRAMMPGMPRGMOVM4VMKVFLVO" +
+            "BQTDIVXCPKFLIFLCMODDVIXDVTS",
+        //支持的视频格式
+        officeFormat: "docdocxrtfxlsxlsxetpptxpptwpspdfPDFDOCDOCXRTFXLSXLSXETPPTPPTXWPS",
+        //广告时间设置
+        advInterval: 1000 * 3,
+        //加载模块
+        modules: [
+            'modules/guide',
+            'modules/user',
+            'modules/basic',
+            'modules/qrcode',
+            'modules/publication',
+            'modules/book',
+            'modules/power',
+            'modules/resource',
+            'modules/email',
+            'modules/examine',
+            'modules/count',
+            'modules/news',
+            'modules/report',
+            'modules/sample',
+            'modules/permission',
+            'modules/advertising',
+            'modules/scratchExport'
+        ]
+    };
+});

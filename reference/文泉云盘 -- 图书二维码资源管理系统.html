@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<!-- saved from url=(0209)https://www.wqyunpan.com/resourceDetail.html?id=337314&openId=oUgl9wSwJY3ZAgBa8tp3zg3GCf44&qrcodeId=113836&sign=c2lnbjdPMUJVaTNNOEJtREZzQnctMTcwOTQ3MTQ0NDM5Ng==@c2lnblVYRFBJalhRaUpNSE5TengtMTcwOTQ3MTQ0NDM5Ng== -->
+<html lang="zh-cn" ng-app="tjTeachingTerrace" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}</style>
+    <!--<title>兆泰源二维码管理系统</title>-->
+    <title>文泉云盘 -- 图书二维码资源管理系统</title>
+    <link rel="stylesheet" type="text/css" href="./文泉云盘 -- 图书二维码资源管理系统_files/prism.css">
+    <link rel="stylesheet" type="text/css" href="./文泉云盘 -- 图书二维码资源管理系统_files/jquery.gritter.css">
+    <link rel="stylesheet" type="text/css" href="./文泉云盘 -- 图书二维码资源管理系统_files/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./文泉云盘 -- 图书二维码资源管理系统_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./文泉云盘 -- 图书二维码资源管理系统_files/duwh.css">
+    <link rel="stylesheet" type="text/css" href="./文泉云盘 -- 图书二维码资源管理系统_files/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="./文泉云盘 -- 图书二维码资源管理系统_files/style.css">
+    <link rel="stylesheet" href="./文泉云盘 -- 图书二维码资源管理系统_files/aliplayer-min.css">
+    <link rel="shortcut icon" href="https://www.wqyunpan.com/favicon.png">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="description" content="兆泰源二维码管理系统">
+    <meta name="keywords" content="兆泰源 文泉云盘 二维码 管理系统">
+    <style type="text/css">
+        .only {
+            width: 115px !important;
+            margin: 0 auto;
+            float: none !important;
+        }
+
+        .page {
+            height: 100vh;
+            overflow: auto;
+            position: relative;
+            background: #fff;
+        }
+
+        .books {
+            overflow: auto;
+            height: calc(100vh - 32px);
+        }
+    </style>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/hm.js.下载"></script><script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?95a745e1f4e3cb9db00b41a424f71447";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body data-ng-controller="loginCtrl" class="ng-scope">
+
+    <!--设置预览-->
+    <a id="serialNumExport" target="_self" data-ng-href="https://cms2.izhixue.cn/59e95a4689eeb92f380f4ab2/202304/be75a390-d28a-11ed-8482-00163e385f86/Tape 15 %28p14%29 Dictation.MP3?e=1709475103&amp;attname=Tape+15+%28p14%29+Dictation.MP3&amp;token=FQy_HVQpTeQPGc4riZqm0WBglJzwE2G2G5OJ5qf6%3Acf9nykclqEhXXi2cdS4rxYwtmUM%3D" href="https://cms2.izhixue.cn/59e95a4689eeb92f380f4ab2/202304/be75a390-d28a-11ed-8482-00163e385f86/Tape%2015%20%28p14%29%20Dictation.MP3?e=1709475103&amp;attname=Tape+15+%28p14%29+Dictation.MP3&amp;token=FQy_HVQpTeQPGc4riZqm0WBglJzwE2G2G5OJ5qf6%3Acf9nykclqEhXXi2cdS4rxYwtmUM%3D"></a>
+
+    <div class="books" data-ng-show="result==1" style="height: calc(-192px + 100vh);">
+        <!--内容-->
+        <div class="box">
+            <!-- ngIf: formData.suffix && 'docdocxrtfxlsxlsxetpptxpptwpspdfPDFDOCDOCXRTFXLSXLSXETPPTPPTXWPS'.includes(formData.suffix) -->
+            <!-- ngIf: formData.suffix && 'MP4FLVWMVAVIDATASFRMRMVBRAMMPGMPRGMOVM4VMKVFLVOBQTDIVXCPKFLIFLCMODDVIXDVTSmp4flvwmvavidatasfrmrmvbrammpgmpegmovm4vmkvflvvobqtdivxcpkfliflcmoddvixdvts'.includes(formData.suffix) -->
+            <!-- ngIf: formData.suffix && 'GIFJPGJPEGPNGBMPgifjpgjpegpngbmp'.includes(formData.suffix) -->
+            <!-- ngIf: formData.suffix && 'mp3wavMP3WAV'.includes(formData.suffix) --><div data-ng-if="formData.suffix &amp;&amp; &#39;mp3wavMP3WAV&#39;.includes(formData.suffix)" class="ng-scope">
+                <div class="dataTables_wrapper text-center">
+                    <!-- ngIf: resPath --><audio preload="auto" controls="controls" controlslist="nodownload" data-ng-if="resPath" style="width:100%;" class="ng-scope">
+                        <source data-ng-src="https://video.izhixue.cn/51a81350d28b71edb7166723a78f0102/a028f264bb78452d92301815a02dc555-5287d2089db37e62345123a1be272f8b.mp4?auth_key=1709552763-51f363771fc2451db696810785637d6c-0-99e16ccdb704cb4372fdbf22e2ee5f96" src="https://video.izhixue.cn/51a81350d28b71edb7166723a78f0102/a028f264bb78452d92301815a02dc555-5287d2089db37e62345123a1be272f8b.mp4?auth_key=1709552763-51f363771fc2451db696810785637d6c-0-99e16ccdb704cb4372fdbf22e2ee5f96">
+                    </audio>
+                </div>
+            </div>
+            <!-- ngIf: formData.suffix &&'txt'.includes(formData.suffix) -->
+            <!-- ngIf: formData.suffix && 'htmhtmlxmlrarzipwmaswf'.includes(formData.suffix) -->
+        </div>
+        <!--标题-->
+        <div style="height: 45px;line-height: 45px;padding-left: 6%;overflow: hidden;">
+            <img data-ng-src="img/type-mp3.png" src="./文泉云盘 -- 图书二维码资源管理系统_files/type-mp3.png">
+            <span class="overflow-nowrap ng-binding" style="font-size: 13px;margin-left: 5px;display: inline-block;width: 85%;">
+                Tape 15 (p14) Dictation.MP3</span>
+        </div>
+        <!--下载资源-->
+        <!-- ngIf: formData.downLoad -->
+        <!--读者反馈-->
+        <div class="set-preview-solid-new"></div>
+        <div data-ng-click="report()" class="set-preview-submitBtn-new-div-report clearfix">
+            <span style="color: #1E1E1E;">读者反馈</span>
+        </div>
+        <!-- 在PC端查看 -->
+        <!-- ngIf: formData.qrType==2 --><div class="set-preview-solid-new ng-scope" data-ng-if="formData.qrType==2"></div>
+        <!-- ngIf: formData.qrType==2 --><div data-ng-click="pcShow()" data-ng-if="formData.qrType==2" style="font-size: 12px;color: #1E1E1E;line-height: 44px;margin-left: 6%;" class="ng-scope">
+            <img src="./文泉云盘 -- 图书二维码资源管理系统_files/pc.png" style="width: 18px;margin-right: 12px;">在PC端查看
+        </div>
+    </div>
+
+    <!--轮播广告 版权所有-->
+    <div class="adv-foot" data-ng-show="result==1">
+        <div class="pone-page-adv" ng-show="advPicArr.length&gt;0">
+            <div class="project-screen">
+                <div class="project-detail slick-initialized slick-slider">
+                    <!-- ngRepeat: item in advPicArr --><div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 650px; transform: translate3d(0px, 0px, 0px);" role="listbox"><div class="project ng-scope slick-slide slick-current slick-active" ng-repeat="item in advPicArr" data-slick-index="0" aria-hidden="false" style="width: 1300px;" tabindex="-1" role="option" aria-describedby="slick-slide00">
+                        <img data-ng-src="https://www.wqyunpan.com/bookQr/file/view/5419562770" data-ng-click="advStatistics(item)" style="width: 100vw" src="./文泉云盘 -- 图书二维码资源管理系统_files/1.png">
+                    </div></div></div><!-- end ngRepeat: item in advPicArr -->
+                </div>
+            </div>
+        </div>
+        <div class="pone-page-foot">版权所有 兆泰源®</div>
+    </div>
+    <div class="text-center ng-hide" style="margin-top: calc(50vh - 175px)" ng-show="result==2">链接已失效！</div>
+
+    <!--推送到邮箱-->
+    <div id="pushQrcodeOne" style="height: auto" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-ng-click="showVideo()" data-dismiss="modal" aria-hidden="true" style="margin-top: 5px;margin-right: 5px;">×
+        </button>
+        <div class="modal-header" style="border: 0">
+            <div class="push-qrcode-title">发送资源到邮箱</div>
+        </div>
+        <div class="push-qrcode-input-area">
+            <auto-email-one style="width: 80%;height: 30px;" book-email-one="bookEmailOne" class="ng-isolate-scope ng-scope"><input placeholder="读者邮箱" type="email" id="e_emailone" data-ng-model="bookEmailOne" class="inputbg ng-pristine ng-valid ng-valid-email"><ul class="emaillistone"></ul></auto-email-one>
+            <div>（确认您的邮箱填写无误后点击发送按钮）</div>
+        </div>
+        <div class="push-qrcode-push-btn ng-hide" data-ng-click="pushEmailFuc()" data-dismiss="modal" aria-hidden="true" data-ng-show="isOKOne()">发送
+        </div>
+        <div class="push-qrcode-push-btn" data-ng-show="!isOKOne()" style="background: #eaeaec">发送</div>
+    </div>
+
+    <!-- 读者反馈 -->
+    <div id="reportModal" style="height: auto;" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-ng-click="showVideo()" data-dismiss="modal" aria-hidden="true" style="margin-top: 5px;margin-right: 5px;">×
+        </button>
+        <div class="modal-header" style="border: 0">
+            <div class="push-qrcode-title">读者反馈</div>
+        </div>
+        <div style="width: 100%;" class="report-email-input">
+            <auto-email placehodel="读者邮箱" book-email="reportEmail" class="ng-isolate-scope ng-scope"><input style="width: 90%;height: 35px;line-height: 35px;margin-left: 3%;margin-bottom: 0px;" placeholder="读者邮箱" type="email" id="e_email" data-ng-model="bookEmail" class="inputbg ng-pristine ng-valid ng-valid-email"><ul class="emaillist"></ul></auto-email>
+        </div>
+        <div class="push-qrcode-input-area" style="margin-bottom: 0px;">
+            <textarea style="resize:none;width: 90%;height: 90px" data-ng-model="reportWord" class="ng-pristine ng-valid"></textarea>
+        </div>
+        <div style="width: 100%;">
+            <div ng-click="reportType=1" style="width: 100%;height: 40px;line-height: 40px;font-size: 14px;text-align: left;border-top: 1px solid #F7F7F7;padding-left: 5%;position: relative;">
+                内容反馈
+                <img data-ng-show="reportType==1" src="./文泉云盘 -- 图书二维码资源管理系统_files/report-modal-right.png" style="position: absolute;right: 10%;top: 13px;" class="">
+            </div>
+            <div ng-click="reportType=2" style="width: 100%;height: 40px;line-height: 40px;font-size: 14px;text-align: left;border-top: 1px solid #F7F7F7;padding-left: 5%;position: relative;">
+                版权申诉
+                <img data-ng-show="reportType==2" src="./文泉云盘 -- 图书二维码资源管理系统_files/report-modal-right.png" style="position: absolute;right: 10%;top: 13px;" class="ng-hide">
+            </div>
+            <div ng-click="reportType=3" style="width: 100%;height: 40px;line-height: 40px;font-size: 14px;text-align: left;border-top: 1px solid #F7F7F7;padding-left: 5%;position: relative;">
+                不良信息
+                <img data-ng-show="reportType==3" src="./文泉云盘 -- 图书二维码资源管理系统_files/report-modal-right.png" style="position: absolute;right: 10%;top: 13px;" class="ng-hide">
+            </div>
+            <div ng-click="reportType=4" style="width: 100%;height: 40px;line-height: 40px;font-size: 14px;text-align: left;border-top: 1px solid #F7F7F7;border-bottom: 1px solid #F7F7F7;padding-left: 5%;margin-bottom: 15px;position: relative;">
+                产品吐槽
+                <img data-ng-show="reportType==4" src="./文泉云盘 -- 图书二维码资源管理系统_files/report-modal-right.png" style="position: absolute;right: 10%;top: 13px;" class="ng-hide">
+            </div>
+        </div>
+        <div class="push-qrcode-push-btn ng-hide" data-ng-show="reportVerify()" data-dismiss="modal" aria-hidden="true" data-ng-click="push()">发送</div>
+        <div class="push-qrcode-push-btn" data-ng-show="!reportVerify()" style="background: #eaeaec">发送</div>
+    </div>
+
+    <!-- 在PC端查看 -->
+    <div id="pcModal" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true" style="height: 100vh;top: 0;">
+        <div style="text-align: center;margin: 60% 0;">
+            仅支持封底贴有刮刮卡的图书，电脑端访问<br>
+            网址：https://www.wqyunpan.com，点击<br>
+            “读者入口”，微信登录后查看全书资源。<br>
+            <button class="btn" data-dismiss="modal" style="font-size: 18px;color: #02bb00;margin-top: 20px;">确定</button>
+        </div>
+    </div>
+
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/prism.js.下载"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/jquery.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/jquery.gritter.min.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/jquery.easydropdown.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/bootstrap.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/angular.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/jquery.md5.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/common.min.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/compatibility.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/debugger.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/pdf.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/pdf.worker.js.下载" charset="utf-8"></script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/slick.min.js.下载" charset="utf-8"></script>
+    <script charset="utf-8" type="text/javascript" src="./文泉云盘 -- 图书二维码资源管理系统_files/aliplayer-min.js.下载"></script>
+    <script type="text/javascript">
+        function define(fn) {
+            fn();
+        }
+    </script>
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/config.js.下载"></script>
+    <!-- <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script> -->
+    <script src="./文泉云盘 -- 图书二维码资源管理系统_files/jweixin-1.6.0.js.下载"></script>
+    <script>
+        // VConsole 默认会挂载到 `window.VConsole` 上
+        // var vConsole = new window.VConsole();
+        // 接下来即可照常使用 `console` 等方法
+        // 结束调试后，可移除掉
+        // vConsole.destroy();
+    </script>
+
+    <script>
+        const jsApiList = [
+            'checkJsApi',
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage',
+            'onMenuShareQQ',
+            'onMenuShareWeibo',
+            'onMenuShareQZone',
+            'hideMenuItems',
+            'showMenuItems',
+            'hideAllNonBaseMenuItem',
+            'showAllNonBaseMenuItem',
+            'translateVoice',
+            'startRecord',
+            'stopRecord',
+            'onVoiceRecordEnd',
+            'playVoice',
+            'onVoicePlayEnd',
+            'pauseVoice',
+            'stopVoice',
+            'uploadVoice',
+            'downloadVoice',
+            'chooseImage',
+            'previewImage',
+            'uploadImage',
+            'downloadImage',
+            'getNetworkType',
+            'openLocation',
+            'getLocation',
+            'hideOptionMenu',
+            'showOptionMenu',
+            'closeWindow',
+            'scanQRCode',
+            'chooseWXPay',
+            'openProductSpecificView',
+            'addCard',
+            'chooseCard',
+            'openCard'
+        ]
+
+        wx.error(function (res) {
+            // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，
+            // 也可以在返回的res参数中查看，对于SPA可以在这里更新签名。
+            console.error('信息验证失败', res);
+        });
+    </script>
+
+    <script type="text/javascript">
+        var routeApp = angular.module('tjTeachingTerrace', []);
+        routeApp.directive('autoEmail', function () {
+            return {
+                restrict: 'E',
+                template: '<input style="width: 90%;height: 35px;line-height: 35px;margin-left: 3%;margin-bottom: 0px;" placeholder="读者邮箱" type="email" id="e_email" data-ng-model="bookEmail" class="inputbg" />' + '<ul class="emaillist"></ul>',
+                scope: {
+                    bookEmail: '='
+                    , placeholder: '='
+                },
+                link: function (scope) {
+                    scope.mailList = ["@qq.com", "@gmail.com", "@126.com", "@163.com", "@hotmail.com",
+                        "@yahoo.com", "@yahoo.com.cn", "@live.com", "@sohu.com", "@sina.com"];
+                    $(".inputbg").bind("keyup", function () {
+                        scope.val = $(this).val();
+                        if (scope.val || scope.val.includes("@")) {
+                            $(".emaillist").hide();
+                            return false;
+                        }
+                        $('.emaillist').empty();
+                        for (var i = 0; i < scope.mailList.length; i++) {
+                            scope.emailText = $(this).val();
+                            $('.emaillist').append('<li class=addr>' + scope.emailText + scope.mailList[i] + '</li>');
+                        }
+                        $('.emaillist').show();
+                        $('.emaillist li').click(function () {
+                            $('.inputbg').val($(this).text());
+                            scope.bookEmail = $('.inputbg').val();
+                            scope.$root.$$phase || scope.$apply();
+                            $('.emaillist').hide();
+                        })
+                    })
+                }
+            };
+        });
+        routeApp.directive('autoEmailOne', function () {
+            return {
+                restrict: 'E',
+                template: '<input placeholder="读者邮箱" type="email" id="e_emailone" data-ng-model="bookEmailOne" class="inputbg" />' + '<ul class="emaillistone"></ul>',
+                scope: {
+                    bookEmailOne: '='
+                    , placeholder: '='
+                },
+                link: function (scope) {
+                    scope.mailList = ["@qq.com", "@gmail.com", "@126.com", "@163.com", "@hotmail.com",
+                        "@yahoo.com", "@yahoo.com.cn", "@live.com", "@sohu.com", "@sina.com"];
+                    $(".inputbg").bind("keyup", function () {
+                        scope.val = $(this).val();
+                        if (scope.val || scope.val.includes("@")) {
+                            $(".emaillistone").hide();
+                            return false;
+                        }
+                        $('.emaillistone').empty();
+                        for (var i = 0; i < scope.mailList.length; i++) {
+                            scope.emailText = $(this).val();
+                            $('.emaillistone').append('<li class=addr>' + scope.emailText + scope.mailList[i] + '</li>');
+                        }
+                        $('.emaillistone').show();
+                        $('.emaillistone li').click(function () {
+                            $('.inputbg').val($(this).text());
+                            scope.bookEmailOne = $('.inputbg').val();
+                            scope.$root.$$phase || scope.$apply();
+                            $('.emaillistone').hide();
+                        })
+                    })
+                }
+            };
+        });
+        //控制器
+        routeApp.controller("loginCtrl", function ($q, $scope, $location, $http, $sce, $interval, $timeout) {
+            //初始化
+            const queryPrams = window.location.search.substr(1).split("&");
+            const querySign = queryPrams.find(d => d.includes('sign='));
+
+            $scope.resourceId = queryPrams[0].split("=")[1];
+            $scope.openId = queryPrams[1].split("=")[1];
+            $scope.qrcodeId = queryPrams[2].split("=")[1];
+            $scope.reportWord = '';
+            $scope.reportType = 1;
+            //读者反馈邮箱
+            $scope.reportEmail = window.sessionStorage.openEmail || "";
+            $scope.result = 0;
+            $scope.resPath = '';
+            $scope.state = '';
+            $scope.advPicArr = [];
+
+            //通过config接口注入权限验证配置
+            function wxConfig() {
+                $http.post(config.domain + 'wx/api/sign', { url: location.href })
+                    .success(data => {
+                        const { sign, timestamp, noncestr } = data.item;
+                        // 引入微信JSSDK并初始化:
+                        wx.config({
+                            // debug: true,
+                            appId: config.weixin_appid, // 必填,公众号的唯一标识
+                            timestamp: timestamp, // 必填,生成签名的时间戳
+                            nonceStr: noncestr, // 必填,生成签名的随机串
+                            signature: sign,// 必填,签名,见附录1
+                            jsApiList, // 必填,需要使用的JS接口列表
+                        });
+                        wx.ready(function () {
+                            // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，
+                            //config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+                            wx.checkJsApi({
+                                jsApiList: ['showMenuItems', 'hideOptionMenu', 'showOptionMenu'], // 需要检测的JS接口列表，所有JS接口列表见附录2,
+                                success: function (res) {
+                                    // 以键值对的形式返回，可用的api值true，不可用为false
+                                    // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}
+                                    wx.hideOptionMenu();
+                                    console.log('信息验证end');
+                                    $scope.formData.downLoad && wx.showMenuItems({
+                                        menuList: [
+                                            'menuItem:openWithQQBrowser', // 在QQ浏览器中打开
+                                            'menuItem:openWithSafari' // 在Safari中打开
+                                        ],
+                                        success: function (res) {
+                                            console.log('已显示在浏览器中打开');
+                                        },
+                                        fail: function (res) {
+                                            console.log('fail', res);
+                                        }
+                                    });
+                                }
+                            });
+                        });
+                    });
+            }
+
+            //下载判断
+            $scope.weixinStatus = false;
+            //判断是否是微信
+            $scope.isWeiXin = function () {
+                const ua = window.navigator.userAgent.toLowerCase();
+                $scope.weixinStatus = ua.includes('micromessenger');
+                if ($scope.weixinStatus) {
+                    //是微信
+                    $scope.state = 'wx';
+                } else {
+                    //不是微信
+                    if ((ua.indexOf('iphone') > -1 && ua.indexOf(' qq/') > -1) ||
+                        (ua.indexOf('android') > -1 && ua.indexOf(' qq/') > -1 && ua.indexOf('mobile') > -1)) {
+                        //是QQ
+                        $scope.state = 'qq';
+                    } else {
+                        //不是QQ other browser
+                        $scope.state = 'browser';
+                    }
+                }
+            };
+            $scope.isWeiXin();
+
+            //微信下载提示
+            $scope.wxTip = function () {
+                if ($scope.weixinStatus) {
+                    $scope.alertMessage('loser', "下载请点击右上角，选择在浏览器中打开!");
+                }
+            };
+
+            // 提示
+            $scope.alertMessage = function (type, msg) {
+                jQuery.gritter.add({
+                    title: '提示'
+                    , text: msg
+                    , class_name: type
+                    , image: 'img/configuration2.png'
+                    , sticky: false
+                });
+            };
+
+            // 推送到邮箱-modal
+            $scope.pushQrcode = function () {
+                $scope.bookEmailOne = (
+                    window.sessionStorage.openEmail &&
+                    window.sessionStorage.openEmail.length > 0 &&
+                    window.sessionStorage.openEmail.includes("@")
+                ) ? window.sessionStorage.openEmail : '';
+                modalAdd("#pushQrcodeOne", "100%", "30px");
+            };
+
+            //在PC端查看 modal
+            $scope.pcShow = function () {
+                // modalAdd("#pcModal", "100%", "0");
+                $scope.alertMessage('loser', '仅支持封底贴有刮刮卡的图书，电脑端访问，网址：https://www.wqyunpan.com，点击“读者入口”，微信登录后查看全书资源。')
+            };
+
+            $scope.showVideo = function () {
+                $(".prism-player video").css("display", "block");
+            };
+
+            // 推送到邮箱
+            $scope.pushEmailFuc = function () {
+                if (window.sessionStorage.timestamp && new Date().getTime() - window.sessionStorage.timestamp < 60000) {
+                    $scope.alertMessage('loser', "请不要连续发送到邮箱，一分钟后重试！");
+                    return;
+                }
+                $http.post(config.domain + 'email/collection',
+                    { email: $scope.bookEmailOne, id: $scope.qrcodeId, url: $scope.qiniuId, openid: $scope.openId })
+                    .success(data => {
+                        if (data.status) {
+                            window.sessionStorage.timestamp = new Date().getTime();
+                            window.sessionStorage.openEmail = $scope.bookEmailOne;
+                            $scope.alertMessage('winner', "请关注邮箱查收邮件信息！");
+                        } else {
+                            $scope.alertMessage('loser', data.message);
+                        }
+                    })
+                    .error(err => $scope.alertMessage('loser', err.message));
+            };
+
+            // 推送到邮箱-验证
+            $scope.isOKOne = function () {
+                return $scope.bookEmailOne;
+            };
+
+            //获取下载地址
+            $scope.getdownloadHref = function (item) {
+                $http.get(config.domainFile + "file/token")
+                    .success(data => {
+                        const token = data.dataId;
+                        $http({
+                            method: 'post',
+                            url: config.uploadFilePath + "resource/download?token=" + token,
+                            data: "resourceId=" + (item.downUrl.includes('//') ? item.path : item.downUrl) + "&attname=" + item.fileName,
+                            headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' },
+                        }).success(res => $scope.downUrl = res.data.PlayAuth);
+                    });
+            };
+
+            //下载
+            $scope.downloadRes = function () {
+                var a = document.getElementById('serialNumExport');
+                a.href = $scope.downUrl;
+                $scope.$root.$$phase || $scope.$apply();
+                var flag = false;
+                $timeout(() => {
+                    document.getElementById('serialNumExport').click();
+                    flag = true;
+                }, 10);
+                $timeout(() => flag ? '' : window.location.href = $scope.downUrl, 300);
+            };
+
+            //下载数量加一
+            $scope.downNum = function (item) {
+                $http.get(config.domainFile + 'file/downNum?fileId=' + item.id + "&openId=" + $scope.openId)
+                    .success(res => res.status ? $scope.downloadRes(item) : $scope.alertMessage('loser', res.message))
+                    .error(err => $scope.alertMessage('loser', err.message));
+            };
+
+            $scope.load = function () {
+                if (window.location.host == "123.57.25.238:8080") {
+                    window.location.href = "http://www.tupmbook.com/preview.html?id=" + $scope.qrcodeId;
+                }
+            };
+
+            //读者反馈-modal
+            $scope.report = function () {
+                $scope.reportEmail = (
+                    window.sessionStorage.openEmail &&
+                    window.sessionStorage.openEmail.length > 0 &&
+                    window.sessionStorage.openEmail.includes("@")
+                ) ? window.sessionStorage.openEmail : '';
+                modalAdd("#reportModal", "100%", "-10px");
+            };
+
+            // 读者反馈
+            $scope.push = function () {
+                $http.post(config.domain + 'report/add', {
+                    id: $scope.formData.id,
+                    openid: $scope.openId,
+                    qrcodeId: $scope.qrcodeId,
+                    remark: $scope.reportWord,
+                    reportType: $scope.reportType,
+                    email: $scope.reportEmail
+                })
+                    .success(data => {
+                        if (data.status) {
+                            $scope.reportWord = '';
+                            $scope.alertMessage('winner', data.message);
+                            window.sessionStorage.openEmail = $scope.reportEmail;
+                        } else {
+                            $scope.alertMessage('loser', data.message);
+                        }
+                    })
+                    .error(err => $scope.alertMessage('loser', err.message));
+            };
+
+            // 读者反馈-验证
+            $scope.reportVerify = function () {
+                return $scope.reportWord && $scope.reportEmail;
+            };
+
+            //图标
+            $scope.typePic = function (type) {
+                type = type ? type.toLowerCase() : 'def';
+                const picture = {
+                    ppt: "img/type-ppt.png",
+                    pptx: 'img/type-pptx.png',
+                    pdf: 'img/type-pdf.png',
+                    xls: 'img/type-xls.png',
+                    xlsx: 'img/type-xlsx.png',
+                    doc: 'img/type-doc.png',
+                    docx: 'img/type-docx.png',
+                    rtf: 'img/type-rtf.png',
+                    mp4: 'img/type-mp4.png',
+                    flv: 'img/type-flv.png',
+                    swf: 'img/type-swf.png',
+                    vod: 'img/type-vod.png',
+                    mp3: 'img/type-mp3.png',
+                    wma: 'img/type-wma.png',
+                    wmp: 'img/type-wmp.png',
+                    kp: 'img/type-kp.png',
+                    png: 'img/type-png.png',
+                    gif: 'img/type-gif.png',
+                    jpg: 'img/type-jpg.png',
+                    jpeg: 'img/type-jpg.png',
+                    jpgx: 'img/type-jpgx.png',
+                    bmp: 'img/type-bmp.png',
+                    txt: 'img/type-txt.png',
+                    html: 'img/type-html.png',
+                    htm: 'img/type-htm.png',
+                    xml: 'img/type-xml.png',
+                    rar: 'img/type-rar.png',
+                    zip: 'img/type-zip.png',
+                    def: 'img/type-null.png',
+                };
+                return picture[type];
+            };
+
+            //获取视频播放地址
+            $scope.getVideoPalyAddress = function (item) {
+                $http.get(config.domainFile + "file/token")
+                    .success(data => {
+                        if (data.status) {
+                            $http({
+                                method: 'post',
+                                url: config.uploadFilePath + "resource/play/auth?token=" + data.dataId,
+                                data: "resourceId=" + item.path,
+                                headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' }
+                            }).success(res => {
+                                $scope.messageTips = false;
+                                var VideoId = res.data.VideoMeta.VideoId;
+                                var PlayAuth = res.data.PlayAuth;
+                                var player = new Aliplayer({
+                                    id: 'J_prismPlayer',
+                                    width: '100%',
+                                    height: '300px',
+                                    autoplay: true,
+                                    vid: VideoId,
+                                    playauth: PlayAuth,
+                                    showBarTime: 3000000
+                                });
+                                $scope.getAdvList();
+                            })
+                        }
+                    })
+            };
+
+            //视频查看状态
+            $scope.videoLook = function (item) {
+                $http.get(config.domain + "resource/status?resId=" + item.id)
+                    .success(data => {
+                        if (data.status) {
+                            if (data.dataId > 10) {
+                                const tips = {
+                                    20: '转码失败 请联系管理员',
+                                    21: '审核失败 请联系管理员',
+                                    30: '正在转码 请您稍后再试',
+                                    31: '正在审核 请您稍后再试'
+                                };
+                                $scope.messageTips = `视频${tips[data.dataId]}`;
+                            } else {
+                                $scope.messageTips = false;
+                                $scope.getVideoPalyAddress(item);
+                            }
+                        } else {
+                            $scope.alertMessage('loser', data.message);
+                        }
+                    })
+                    .error(err => $scope.alertMessage('loser', err.message));
+            };
+
+            //获取office文件预览地址
+            $scope.getOfficePath = function (id, uuid) {
+                $http.get(config.domain + "resource/officeToHtml?id=" + id + "&openId=" + $scope.openId + "&uuId=" + uuid)
+                    .success(data => {
+                        if (data.status) {
+                            $scope.resPath = $sce.trustAsResourceUrl(data.item);
+                            $scope.getAdvList();
+                        } else {
+                            $scope.alertMessage('loser', data.message);
+                        }
+                    })
+                    .error(err => $scope.alertMessage('loser', err.message));
+            };
+
+            //图片资源预览
+            $scope.viewPicture = function (resourceId, uuid) {
+                $http.get(config.domain + 'file/getWebUrl?resourceId=' + resourceId + '&openId=' + $scope.openId + "&uuId=" + uuid)
+                    .success(req => $scope.resPath = $sce.trustAsResourceUrl(req.item.playAuth));
+            };
+
+            // 广告统计
+            $scope.advStatistics = function (item) {
+                $http.get(config.domain + 'adv/clickAdv?isAuthQr=1&qrId=' + $scope.qrcodeId + '&advId=' + item.id + '&state=' + $scope.state)
+                    .success(() => window.location.href = item.url)
+                    .error(() => $scope.alertMessage('loser', "网络连接失败3！"));
+            }
+
+            //获取广告图片
+            $scope.getAdvList1 = function () {
+                $http.get(config.domain + 'adv/getListByQrId?qrId=' + $scope.qrcodeId)
+                    .success(data => {
+                        if (data.status) {
+                            $scope.advPicArr = data.items;
+                            setTimeout(() => {
+                                // 广告动画
+                                $(".project-detail").slick({
+                                    slidesToShow: 1,
+                                    arrows: false,
+                                    asNavFor: '',
+                                    autoplay: true,
+                                    dots: true,
+                                    autoplaySpeed: config.advInterval
+                                });
+                            }, 1);
+                            $scope.advPicArr.length && $('.books').css({ height: 'calc(100vh - 192px)' });
+                        } else {
+                            $scope.alertMessage('loser', data.message);
+                        }
+                    })
+                    .error(() => $scope.alertMessage('loser', "网络连接失败2！"));
+            };
+            $scope.getAdvList = function () {
+                $timeout(() => $scope.getAdvList1(), 1500);
+            };
+
+            //加载预览
+            $scope.loadFile = function () {
+                $http.get(config.domain + 'resource/resDetail?id=' + $scope.resourceId + "&openId=" + $scope.openId)
+                    .success(data => {
+                        if (data.status) {
+                            $scope.formData = data.item;
+                            if ($scope.canRead == 2 && $scope.rightStatus == 2) {
+                                // 防盗版 有权限 允许下载
+                                $scope.weixinStatus && wxConfig();
+                            }
+                            $scope.getdownloadHref($scope.formData);
+                            $scope.filePic = $scope.typePic($scope.formData.suffix);
+                            $scope.qiniuId = (data.item.downUrl.includes('//') ? data.item.path : data.item.downUrl);
+                            if (config.videoFormat.includes($scope.formData.suffix)) {
+                                $scope.videoLook($scope.formData);
+                            } else if (config.officeFormat.includes($scope.formData.suffix) || $scope.formData.suffix == 'txt') {
+                                $scope.getOfficePath($scope.formData.path, $scope.formData.fileId);
+                            } else {
+                                $scope.viewPicture($scope.formData.path, $scope.formData.fileId);
+                                $scope.getAdvList();
+                            }
+                            $scope.formData.fileName = $scope.formData.fileName || $scope.formData.name;
+                        } else {
+                            $scope.alertMessage('loser', data.message);
+                        }
+                    })
+                    .error(err => $scope.alertMessage('loser', err.message));
+            };
+
+            //校验是否失效
+            function checkHtmlSign() {
+                const index = ['wx', 'browser'].indexOf($scope.state);
+                const sign = querySign.substr(5).split('@')[index];
+                $http.get(config.domain + 'qrcode/checkHtmlSign?sign=' + sign)
+                    .success(data => {
+                        $scope.result = data.item.result;
+                        if (data.item.result < 2) {
+                            $scope.load();
+                            $scope.loadFile();
+                        }
+                    });
+            }
+
+            //获取资源权限状态
+            function resAuth() {
+                $http.get(config.domain + 'resource/resAuth?id=' + $scope.resourceId + "&openId=" + $scope.openId)
+                    .success(data => {
+                        const { canRead, rightStatus } = data.item;
+                        $scope.canRead = canRead;
+                        $scope.rightStatus = rightStatus;
+                        //canRead 1普通资源，2：防盗版资源
+                        //rightStatus 1：没有权限，2：有权限
+                        if (canRead == 2 && rightStatus == 1) {
+                            // 防盗版 没权限
+                            window.location.href = config.host + "powerQr.html?id=" + $scope.qrcodeId;
+                            return;
+                        }
+                        if (canRead == 2 && rightStatus == 2) {
+                            // 防盗版 有权限
+                            checkHtmlSign();
+                            return;
+                        }
+                        // 普通资源
+                        $scope.result = 1;
+                        $scope.load();
+                        $scope.loadFile();
+                    });
+            }
+
+            if (querySign) {
+                resAuth();
+            } else {
+                $scope.result = 2;
+            }
+
+            if (window.sessionStorage.qrId) {
+                const qrId = window.sessionStorage.qrId;
+                $http.get(config.domain + 'count/addViewRank?id=' + qrId + "&openId=" + $scope.openId)
+                    .success(data => !data.status && $scope.alertMessage('loser', data.message))
+                    .error(err => $scope.alertMessage('loser', err.message));
+            }
+        });
+    </script>
+
+
+
+</body></html>
